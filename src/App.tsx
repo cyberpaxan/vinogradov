@@ -3,6 +3,7 @@ import './App.scss';
 import Header from './components/Header/Header';
 import History from './components/History/History';
 import Home from './components/Home/Home';
+import OurProducts from './components/OurProducts/OurProducts';
 import WhyWe from './components/WhyWe/WhyWe';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <Home />
             <History />
             <WhyWe />
+            <OurProducts />
         </div>
     );
 }
