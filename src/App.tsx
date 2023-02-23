@@ -1,5 +1,7 @@
 import React from 'react';
+
 import './App.scss';
+import DeliveryAndPay from './components/DeliveryAndPay/DeliveryAndPay';
 import Header from './components/Header/Header';
 import History from './components/History/History';
 import Home from './components/Home/Home';
@@ -14,6 +16,7 @@ function App() {
             <History />
             <WhyWe />
             <OurProducts />
+            <DeliveryAndPay />
         </div>
     );
 }
