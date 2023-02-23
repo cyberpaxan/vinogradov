@@ -7,6 +7,7 @@ import History from './components/History/History';
 import Home from './components/Home/Home';
 import OurProducts from './components/OurProducts/OurProducts';
 import WhyWe from './components/WhyWe/WhyWe';
+import CallForm from './components/CallForm/CallForm';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <WhyWe />
             <OurProducts />
             <DeliveryAndPay />
+            <CallForm />
         </div>
     );
 }
