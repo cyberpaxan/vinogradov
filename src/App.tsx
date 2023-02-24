@@ -8,6 +8,8 @@ import Home from './components/Home/Home';
 import OurProducts from './components/OurProducts/OurProducts';
 import WhyWe from './components/WhyWe/WhyWe';
 import CallForm from './components/CallForm/CallForm';
+import Documents from './components/Documents/Documents';
+import Reviews from './components/Reviews/Reviews';
 
 function App() {
     return (
@@ -19,6 +21,8 @@ function App() {
             <OurProducts />
             <DeliveryAndPay />
             <CallForm />
+            <Documents />
+            <Reviews />
         </div>
     );
 }

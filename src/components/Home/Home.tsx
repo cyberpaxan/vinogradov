@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Home.module.scss';
 import cells1 from '../../assets/images/cells1.png';
 import cells2 from '../../assets/images/cells2.png';
-import cells22 from '../../assets/images/cells22.png';
 import bee1 from '../../assets/images/bee1.png';
 
 const Home = () => {
@@ -37,7 +36,7 @@ const Home = () => {
                     </div>
 
                     <div className={styles.home__cells__2}>
-                        <img src={cells22} />
+                        <img src={cells2} />
                     </div>
                 </div>
             </div>
