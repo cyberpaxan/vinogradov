@@ -11,6 +11,7 @@ import CallForm from './components/CallForm/CallForm';
 import Documents from './components/Documents/Documents';
 import Reviews from './components/Reviews/Reviews';
 import Contacts from './components/Contacts/Contacts';
+import Footer from './components/Footer/Footer';
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
             <Documents />
             <Reviews />
             <Contacts />
+            <Footer />
         </div>
     );
 }
