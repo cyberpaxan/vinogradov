@@ -10,6 +10,7 @@ import WhyWe from './components/WhyWe/WhyWe';
 import CallForm from './components/CallForm/CallForm';
 import Documents from './components/Documents/Documents';
 import Reviews from './components/Reviews/Reviews';
+import Contacts from './components/Contacts/Contacts';
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
             <CallForm />
             <Documents />
             <Reviews />
+            <Contacts />
         </div>
     );
 }
