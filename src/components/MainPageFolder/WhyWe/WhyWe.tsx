@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './WhyWe.module.scss';
-import cells3 from '../../assets/images/cells3.png';
+import cells3 from '../../../assets/images/cells3.png';
 
 const WhyWe = () => {
     return (

@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './OurProducts.module.scss';
-import bee2 from '../../assets/images/bee2.png';
-import pic1 from '../../assets/images/OurProductsImg/1.png';
-import pic2 from '../../assets/images/OurProductsImg/2.png';
-import pic3 from '../../assets/images/OurProductsImg/3.png';
-import pic4 from '../../assets/images/OurProductsImg/4.png';
+import bee2 from '../../../assets/images/bee2.png';
+import pic1 from '../../../assets/images/OurProductsImg/1.png';
+import pic2 from '../../../assets/images/OurProductsImg/2.png';
+import pic3 from '../../../assets/images/OurProductsImg/3.png';
+import pic4 from '../../../assets/images/OurProductsImg/4.png';
 
 const OurProducts = () => {
     return (

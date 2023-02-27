@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Reviews.module.scss';
-import cells5 from '../../assets/images/cells5.png';
-import cells6 from '../../assets/images/cells6.png';
+import cells5 from '../../../assets/images/cells5.png';
+import cells6 from '../../../assets/images/cells6.png';
 
 const Reviews = () => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './DeliveryAndPay.module.scss';
-import sunflower2 from '../../assets/images/sunflower2.png';
-import sunflower3 from '../../assets/images/sunflower3.png';
-import cells4 from '../../assets/images/cells4.png';
+import sunflower2 from '../../../assets/images/sunflower2.png';
+import sunflower3 from '../../../assets/images/sunflower3.png';
+import cells4 from '../../../assets/images/cells4.png';
 
 const DeliveryAndPay = () => {
     return (

@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Contacts.module.scss';
-import point from '../../assets/images/ContactsImg/point.png';
-import cells7 from '../../assets/images/cells7.png';
-import mail from '../../assets/images/ContactsImg/mail.png';
-import phone from '../../assets/images/ContactsImg/phone.png';
-import vk from '../../assets/images/ContactsImg/vk.png';
-import tg from '../../assets/images/ContactsImg/tg.png';
-import ok from '../../assets/images/ContactsImg/ok.png';
+import point from '../../../assets/images/ContactsImg/point.png';
+import cells7 from '../../../assets/images/cells7.png';
+import mail from '../../../assets/images/ContactsImg/mail.png';
+import phone from '../../../assets/images/ContactsImg/phone.png';
+import vk from '../../../assets/images/ContactsImg/vk.png';
+import tg from '../../../assets/images/ContactsImg/tg.png';
+import ok from '../../../assets/images/ContactsImg/ok.png';
 
 const Contacts = () => {
     return (

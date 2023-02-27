@@ -9,9 +9,9 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
 import OurProducts from '../OurProducts/OurProducts';
-import Reviews from '../Reviews/Reviews';
 import WhyWe from '../WhyWe/WhyWe';
 import History from '../History/History';
+import Reviews from '../Reviews/Reviews';
 
 const MainPage = () => {
     return (

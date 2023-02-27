@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Footer.module.scss';
-import vk from '../../assets/images/ContactsImg/vk.png';
-import tg from '../../assets/images/ContactsImg/tg.png';
-import ok from '../../assets/images/ContactsImg/ok.png';
+import vk from '../../../assets/images/ContactsImg/vk.png';
+import tg from '../../../assets/images/ContactsImg/tg.png';
+import ok from '../../../assets/images/ContactsImg/ok.png';
 
 const Footer = () => {
     return (

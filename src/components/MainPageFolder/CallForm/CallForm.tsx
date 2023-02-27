@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './CallForm.module.scss';
-import pot1 from '../../assets/images/pot1.png';
+import pot1 from '../../../assets/images/pot1.png';
 
 const CallForm = () => {
     return (

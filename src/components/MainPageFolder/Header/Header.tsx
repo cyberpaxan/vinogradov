@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Header.module.scss';
-import cart from '../../assets/images/cart.png';
+import cart from '../../../assets/images/cart.png';
 
 const Header = () => {
     return (

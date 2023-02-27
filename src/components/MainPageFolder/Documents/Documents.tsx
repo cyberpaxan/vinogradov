@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Documents.module.scss';
-import bee3 from '../../assets/images/bee3.png';
-import doc1 from '../../assets/images/doc1.png';
-import doc2 from '../../assets/images/doc2.png';
-import doc3 from '../../assets/images/doc3.png';
+import bee3 from '../../../assets/images/bee3.png';
+import doc1 from '../../../assets/images/doc1.png';
+import doc2 from '../../../assets/images/doc2.png';
+import doc3 from '../../../assets/images/doc3.png';
 
 const Documents = () => {
     return (

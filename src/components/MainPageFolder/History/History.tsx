@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './History.module.scss';
-import sunflower1 from '../../assets/images/sunflower1.png';
-import beekeeper from '../../assets/images/beekeeper.png';
+import sunflower1 from '../../../assets/images/sunflower1.png';
+import beekeeper from '../../../assets/images/beekeeper.png';
 
 const History: React.FC = () => {
     return (
