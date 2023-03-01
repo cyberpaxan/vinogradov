@@ -1,0 +1,55 @@
+.cart {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+
+        &__img1 {
+            margin-top: -75px;
+        }
+
+        &__block {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            &__info {
+                width: 1170px;
+                height: 54px;
+                background: #ffd465;
+                border-radius: 25px;
+                margin-top: 65px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 31px;
+
+                h1 {
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 31px;
+                    display: flex;
+                }
+            }
+
+            &__items {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            &__hr {
+                hr {
+                    margin-top: 88px;
+                    width: 1024px;
+                    height: 0px;
+                    border: 1px solid rgba(179, 134, 134, 0.4);
+                }
+            }
+        }
+
+        &__img2 {
+            margin-top: 724px;
+        }
+    }
+}
