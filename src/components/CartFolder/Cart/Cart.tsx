@@ -54,11 +54,23 @@ const Cart = () => {
                         <div className={styles.cart__content__block__hr}>
                             <hr />
                         </div>
+
+                        <div className={styles.cart__content__block__finals}>
+                            <h1>Итого 2 192 руб.</h1>
+                            <button>Оформить заказ</button>
+                            <h2>
+                                Оплата доставки производится Покупателем при
+                                получении заказа.
+                            </h2>
+                        </div>
                     </div>
 
                     <div className={styles.cart__content__img2}>
                         <img src={cells8} />
                     </div>
+                </div>
+                <div className={styles.cart__footer}>
+                    <Footer />
                 </div>
             </div>
         </div>
