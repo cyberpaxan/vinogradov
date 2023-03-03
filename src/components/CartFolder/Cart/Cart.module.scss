@@ -1,11 +1,8 @@
 .cart {
-    display: flex;
-    flex-direction: column;
+    min-height: 100vh;
     &__content {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 65px;
-
         &__img1 {
             margin-top: -75px;
         }
@@ -90,9 +87,14 @@
 
         &__img2 {
             margin-top: 724px;
+            margin-bottom: 65px;
         }
     }
 
     &__footer {
+        width: 100%;
+
+        bottom: 0;
+        position: absolute;
     }
 }
