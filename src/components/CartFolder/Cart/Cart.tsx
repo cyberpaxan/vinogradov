@@ -8,6 +8,7 @@ import CartItem from '../CartItem/CartItem';
 
 import cartitem1 from '../../../assets/images/cartitem1.png';
 import cartitem2 from '../../../assets/images/cartitem2.png';
+import { Link } from 'react-router-dom';
 
 const titleItem1: string = 'Мёд Горный ЭКО 550 гр.';
 const priceItem1: number = 836;
@@ -57,7 +58,9 @@ const Cart = () => {
 
                         <div className={styles.cart__content__block__finals}>
                             <h1>Итого 2 192 руб.</h1>
-                            <button>Оформить заказ</button>
+                            <Link to='/ordermaker'>
+                                <button>Оформить заказ</button>
+                            </Link>
                             <h2>
                                 Оплата доставки производится Покупателем при
                                 получении заказа.
