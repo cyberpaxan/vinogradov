@@ -297,6 +297,54 @@
                     }
                 }
             }
+
+            &__comment {
+                display: flex;
+                flex-direction: column;
+                margin-top: 85px;
+
+                input {
+                    width: 1171px;
+                    height: 146px;
+                    border: 1px solid rgba(0, 0, 0, 0.4);
+                    border-radius: 25px;
+                    background-color: #fff4dc;
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #7a7979;
+                    padding: 22px 0px 104px 19px;
+                    box-sizing: border-box;
+                }
+
+                &__agreement {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-top: 24px;
+
+                    input {
+                        width: 43px;
+                        height: 31px;
+                        accent-color: #ffd465;
+                        border-radius: 25px;
+
+                        &[type='checkbox'] {
+                            accent-color: #ffd465;
+                        }
+                    }
+
+                    h2 {
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                }
+            }
         }
     }
 }

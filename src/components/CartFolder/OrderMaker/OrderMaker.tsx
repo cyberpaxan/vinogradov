@@ -148,6 +148,27 @@ const OrderMaker = () => {
                                 <h2>Оплата через банк</h2>
                             </div>
                         </div>
+
+                        <div className={styles.order__content__block__comment}>
+                            <input type='text' placeholder='Комментарий' />
+                            <div
+                                className={
+                                    styles.order__content__block__comment__agreement
+                                }
+                            >
+                                <input
+                                    type='checkbox'
+                                    className='checkbox'
+                                    id='box'
+                                />
+
+                                <h2>
+                                    Я даю согласие на обработку моих
+                                    персональных данных и выражаю согласие с
+                                    политикой конфиденциальности
+                                </h2>
+                            </div>
+                        </div>
                     </div>
 
                     <div className={styles.order__content__img2}>
