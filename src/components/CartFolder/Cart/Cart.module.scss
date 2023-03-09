@@ -1,5 +1,10 @@
 .cart {
     min-height: 100vh;
+
+    &__footer {
+        width: 100%;
+        bottom: 0;
+    }
     &__content {
         display: flex;
         justify-content: space-between;
@@ -88,12 +93,7 @@
 
         &__img2 {
             margin-top: 724px;
+            margin-bottom: 65px;
         }
-    }
-
-    &__footer {
-        margin-top: 65px;
-        width: 100%;
-        bottom: 0;
     }
 }

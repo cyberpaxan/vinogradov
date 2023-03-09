@@ -185,9 +185,9 @@ const OrderMaker = () => {
                         <img src={cells8} />
                     </div>
                 </div>
-            </div>
-            <div className={styles.order__footer}>
-                <Footer />
+                <div className={styles.order__footer}>
+                    <Footer />
+                </div>
             </div>
         </div>
     );
