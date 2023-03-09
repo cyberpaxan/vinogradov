@@ -3,6 +3,7 @@ import Header from '../../MainPageFolder/Header/Header';
 import styles from './OrderMaker.module.scss';
 import cells8 from '../../../assets/images/cells8.png';
 import sunflower4 from '../../../assets/images/sunflower4.png';
+import Footer from '../../MainPageFolder/Footer/Footer';
 
 const OrderMaker = () => {
     return (
@@ -169,12 +170,24 @@ const OrderMaker = () => {
                                 </h2>
                             </div>
                         </div>
+
+                        <div className={styles.order__content__block__finals}>
+                            <h1>Итого 2 192 руб.</h1>
+                            <button>Оформить заказ</button>
+                            <h2>
+                                Оплата доставки производится Покупателем при
+                                получении заказа.
+                            </h2>
+                        </div>
                     </div>
 
                     <div className={styles.order__content__img2}>
                         <img src={cells8} />
                     </div>
                 </div>
+            </div>
+            <div className={styles.order__footer}>
+                <Footer />
             </div>
         </div>
     );
