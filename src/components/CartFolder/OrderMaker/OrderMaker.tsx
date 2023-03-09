@@ -4,6 +4,7 @@ import styles from './OrderMaker.module.scss';
 import cells8 from '../../../assets/images/cells8.png';
 import sunflower4 from '../../../assets/images/sunflower4.png';
 import Footer from '../../MainPageFolder/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 const OrderMaker = () => {
     return (
@@ -173,7 +174,9 @@ const OrderMaker = () => {
 
                         <div className={styles.order__content__block__finals}>
                             <h1>Итого 2 192 руб.</h1>
-                            <button>Оформить заказ</button>
+                            <Link to='/finishorder'>
+                                <button>Оформить заказ</button>
+                            </Link>
                             <h2>
                                 Оплата доставки производится Покупателем при
                                 получении заказа.
