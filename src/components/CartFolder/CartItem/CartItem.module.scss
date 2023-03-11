@@ -48,6 +48,7 @@
             align-items: center;
             margin-left: 13px;
             margin-right: 13px;
+            cursor: pointer;
         }
 
         h1 {
@@ -69,5 +70,9 @@
             font-size: 20px;
             line-height: 26px;
         }
+    }
+
+    &__img {
+        cursor: pointer;
     }
 }

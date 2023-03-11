@@ -5,8 +5,22 @@ import cells8 from '../../../assets/images/cells8.png';
 import sunflower4 from '../../../assets/images/sunflower4.png';
 import Footer from '../../MainPageFolder/Footer/Footer';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const OrderMaker = () => {
+    function ScrollToTop() {
+        const { pathname } = useLocation();
+
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, [pathname]);
+
+        return null;
+    }
+
+    ScrollToTop();
+
     return (
         <div>
             <div className={styles.order}>
@@ -188,9 +202,9 @@ const OrderMaker = () => {
                         <img src={cells8} />
                     </div>
                 </div>
-                <div className={styles.order__footer}>
-                    <Footer />
-                </div>
+            </div>
+            <div>
+                <Footer />
             </div>
         </div>
     );

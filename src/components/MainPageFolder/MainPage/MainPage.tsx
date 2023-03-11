@@ -13,7 +13,22 @@ import WhyWe from '../WhyWe/WhyWe';
 import History from '../History/History';
 import Reviews from '../Reviews/Reviews';
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
 const MainPage = () => {
+    function ScrollToTop() {
+        const { pathname } = useLocation();
+
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, [pathname]);
+
+        return null;
+    }
+
+    ScrollToTop();
+
     return (
         <div>
             <div className={styles.mainpage}>

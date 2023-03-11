@@ -6,7 +6,22 @@ import cells9 from '../../../assets/images/cells9.png';
 import robokassa from '../../../assets/images/robokassa.png';
 import Footer from '../../MainPageFolder/Footer/Footer';
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
 const FinishOrder = () => {
+    function ScrollToTop() {
+        const { pathname } = useLocation();
+
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, [pathname]);
+
+        return null;
+    }
+
+    ScrollToTop();
+
     return (
         <div>
             <div className={styles.finish}>
@@ -26,9 +41,9 @@ const FinishOrder = () => {
                         <img src={pot2} />
                     </div>
                 </div>
-                <div className={styles.finish__footer}>
-                    <Footer />
-                </div>
+            </div>
+            <div>
+                <Footer />
             </div>
         </div>
     );
