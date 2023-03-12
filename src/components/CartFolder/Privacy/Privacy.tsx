@@ -339,9 +339,9 @@ const Privacy = () => {
                         <img src={cells8} />
                     </div>
                 </div>
-            </div>
-            <div>
-                <Footer />
+                <div>
+                    <Footer />
+                </div>
             </div>
         </div>
     );

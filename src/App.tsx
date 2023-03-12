@@ -7,6 +7,7 @@ import FinishOrder from './components/CartFolder/FinishOrder/FinishOrder';
 import OrderMaker from './components/CartFolder/OrderMaker/OrderMaker';
 import Privacy from './components/CartFolder/Privacy/Privacy';
 import MainPage from './components/MainPageFolder/MainPage/MainPage';
+import Honey from './components/ProductsFolder/Honey/Honey';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path='/ordermaker' element={<OrderMaker />} />
                 <Route path='/finishorder' element={<FinishOrder />} />
                 <Route path='/privacy' element={<Privacy />} />
+                <Route path='/products/honey' element={<Honey />} />
             </Routes>
         </div>
     );

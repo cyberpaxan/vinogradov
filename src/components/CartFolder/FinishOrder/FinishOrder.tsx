@@ -41,9 +41,9 @@ const FinishOrder = () => {
                         <img src={pot2} />
                     </div>
                 </div>
-            </div>
-            <div>
-                <Footer />
+                <div>
+                    <Footer />
+                </div>
             </div>
         </div>
     );
