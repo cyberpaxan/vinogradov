@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <div className={styles.header}>
                 <div className={styles.header__logoAndCart}>
-                    <Link to='/'>
+                    <Link to='/' style={{ textDecoration: 'none' }}>
                         <h1>Виноградовъ</h1>
                     </Link>
                     <div className={styles.header__logoAndCart__headerContent}>
