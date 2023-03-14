@@ -1,0 +1,98 @@
+.all {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex: 1 1 auto;
+
+        &__imgs1 {
+            &__1 {
+                margin-top: -75px;
+            }
+
+            &__2 {
+                margin-top: 1253px;
+            }
+
+            &__3 {
+                margin-top: 2067px;
+            }
+        }
+
+        &__imgs2 {
+            &__1 {
+                margin-top: 340px;
+            }
+
+            &__2 {
+                margin-top: 1993px;
+            }
+        }
+
+        &__mainblock {
+            display: flex;
+            flex-direction: column;
+            margin-top: 65px;
+
+            &__title {
+                width: 1170px;
+                height: 54px;
+                background: #ffd465;
+                border-radius: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-family: 'Mont';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+            }
+
+            &__categories {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                margin-top: 55px;
+
+                &__1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 132px;
+                    height: 54px;
+                    background: #ffd465;
+                    border-radius: 25px;
+                    cursor: pointer;
+
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                }
+
+                &__2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 15px 30px 15px 30px;
+                    background: #ffe9af;
+                    border-radius: 25px;
+                    cursor: pointer;
+
+                    font-family: 'Mont';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                }
+            }
+        }
+    }
+}

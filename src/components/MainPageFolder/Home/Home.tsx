@@ -9,7 +9,7 @@ const Home = () => {
             <div className={styles.home}>
                 <div className={styles.home__cells}>
                     <div className={styles.home__cells__1}>
-                        <img src={cells1} width={370} />
+                        <img src={cells1} width={350} />
                     </div>
 
                     <div className={styles.home__cells__main}>
@@ -35,7 +35,7 @@ const Home = () => {
                     </div>
 
                     <div className={styles.home__cells__2}>
-                        <img src={cells2} width={270} />
+                        <img src={cells2} width={300} />
                     </div>
                 </div>
             </div>
