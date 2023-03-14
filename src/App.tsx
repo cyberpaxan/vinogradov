@@ -7,6 +7,8 @@ import FinishOrder from './components/CartFolder/FinishOrder/FinishOrder';
 import OrderMaker from './components/CartFolder/OrderMaker/OrderMaker';
 import Privacy from './components/CartFolder/Privacy/Privacy';
 import MainPage from './components/MainPageFolder/MainPage/MainPage';
+import Candle from './components/ProductsFolder/Candle/Candle';
+import Gift from './components/ProductsFolder/Gift/Gift';
 import Honey from './components/ProductsFolder/Honey/Honey';
 import Tea from './components/ProductsFolder/Tea/Tea';
 
@@ -21,6 +23,8 @@ function App() {
                 <Route path='/privacy' element={<Privacy />} />
                 <Route path='/products/honey' element={<Honey />} />
                 <Route path='/products/tea' element={<Tea />} />
+                <Route path='/products/candle' element={<Candle />} />
+                <Route path='/products/gift' element={<Gift />} />
             </Routes>
         </div>
     );
