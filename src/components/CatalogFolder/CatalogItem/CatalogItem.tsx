@@ -4,7 +4,6 @@ import styles from './CatalogItem.module.scss';
 interface CatalogItem {
     img: string;
     title: string;
-
     price: number;
 }
 

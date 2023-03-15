@@ -6,12 +6,14 @@ import Cart from './components/CartFolder/Cart/Cart';
 import FinishOrder from './components/CartFolder/FinishOrder/FinishOrder';
 import OrderMaker from './components/CartFolder/OrderMaker/OrderMaker';
 import Privacy from './components/CartFolder/Privacy/Privacy';
-import All from './components/CatalogFolder/Honey/All/All';
 import MainPage from './components/MainPageFolder/MainPage/MainPage';
+
 import Candle from './components/ProductsFolder/Candle/Candle';
 import Gift from './components/ProductsFolder/Gift/Gift';
 import Honey from './components/ProductsFolder/Honey/Honey';
 import Tea from './components/ProductsFolder/Tea/Tea';
+
+import HoneyAll from './components/CatalogFolder/Honey/All/HoneyAll';
 
 function App() {
     return (
@@ -26,7 +28,7 @@ function App() {
                 <Route path='/products/tea' element={<Tea />} />
                 <Route path='/products/candle' element={<Candle />} />
                 <Route path='/products/gift' element={<Gift />} />
-                <Route path='/catalog/honey/all' element={<All />} />
+                <Route path='/catalog/honey/all' element={<HoneyAll />} />
             </Routes>
         </div>
     );

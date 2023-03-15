@@ -13,7 +13,12 @@ const Header = () => {
                     </Link>
                     <div className={styles.header__logoAndCart__headerContent}>
                         <h2>О компании</h2>
-                        <h2>Каталог</h2>
+                        <Link
+                            to='/catalog/honey/all'
+                            style={{ textDecoration: 'none' }}
+                        >
+                            <h2>Каталог</h2>
+                        </Link>
                         <h2>Оплата и доставка</h2>
                         <h2>Контакты</h2>
                     </div>
