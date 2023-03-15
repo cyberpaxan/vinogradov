@@ -14,6 +14,8 @@ import Honey from './components/ProductsFolder/Honey/Honey';
 import Tea from './components/ProductsFolder/Tea/Tea';
 
 import HoneyAll from './components/CatalogFolder/Honey/All/HoneyAll';
+import HoneyEco from './components/CatalogFolder/Honey/HoneyEco/HoneyEco';
+import HoneyCrimea from './components/CatalogFolder/Honey/Crimea/HoneyCrimea';
 
 function App() {
     return (
@@ -29,6 +31,8 @@ function App() {
                 <Route path='/products/candle' element={<Candle />} />
                 <Route path='/products/gift' element={<Gift />} />
                 <Route path='/catalog/honey/all' element={<HoneyAll />} />
+                <Route path='/catalog/honey/eco' element={<HoneyEco />} />
+                <Route path='/catalog/honey/crimea' element={<HoneyCrimea />} />
             </Routes>
         </div>
     );

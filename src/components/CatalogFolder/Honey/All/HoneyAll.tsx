@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../../MainPageFolder/Header/Header';
 import styles from './HoneyAll.module.scss';
+import { Link } from 'react-router-dom';
 
 import sunflower1 from '../../../../assets/images/sunflower1.png';
 import sunflower5 from '../../../../assets/images/sunflower5.png';
@@ -29,7 +30,6 @@ import honey17 from '../../../../assets/images/CatalogImg/honey17.png';
 import honey18 from '../../../../assets/images/CatalogImg/honey18.png';
 import honey19 from '../../../../assets/images/CatalogImg/honey19.png';
 import honey20 from '../../../../assets/images/CatalogImg/honey20.png';
-import { Link } from 'react-router-dom';
 
 const HoneyAll = () => {
     return (
@@ -61,27 +61,42 @@ const HoneyAll = () => {
                                 styles.all__content__mainblock__categories
                             }
                         >
-                            <div
-                                className={
-                                    styles.all__content__mainblock__categories__1
-                                }
+                            <Link
+                                to='/catalog/honey/all'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Все
-                            </div>
-                            <div
-                                className={
-                                    styles.all__content__mainblock__categories__2
-                                }
+                                <div
+                                    className={
+                                        styles.all__content__mainblock__categories__1
+                                    }
+                                >
+                                    Все
+                                </div>
+                            </Link>
+                            <Link
+                                to='/catalog/honey/eco'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Горный Эко
-                            </div>
-                            <div
-                                className={
-                                    styles.all__content__mainblock__categories__2
-                                }
+                                <div
+                                    className={
+                                        styles.all__content__mainblock__categories__2
+                                    }
+                                >
+                                    Горный Эко
+                                </div>
+                            </Link>
+                            <Link
+                                to='/catalog/honey/crimea'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Крымская коллекция
-                            </div>
+                                <div
+                                    className={
+                                        styles.all__content__mainblock__categories__2
+                                    }
+                                >
+                                    Крымская коллекция
+                                </div>
+                            </Link>
                             <div
                                 className={
                                     styles.all__content__mainblock__categories__2
