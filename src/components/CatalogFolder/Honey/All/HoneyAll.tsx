@@ -97,13 +97,20 @@ const HoneyAll = () => {
                                     Крымская коллекция
                                 </div>
                             </Link>
-                            <div
-                                className={
-                                    styles.all__content__mainblock__categories__2
-                                }
+
+                            <Link
+                                to='/catalog/honey/lavender'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Лавандовый
-                            </div>
+                                <div
+                                    className={
+                                        styles.all__content__mainblock__categories__2
+                                    }
+                                >
+                                    Лавандовый
+                                </div>
+                            </Link>
+
                             <div
                                 className={
                                     styles.all__content__mainblock__categories__2

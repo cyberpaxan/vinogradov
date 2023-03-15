@@ -30,10 +30,6 @@ const HoneyCrimea = () => {
                         <div className={styles.crimea__content__imgs1__2}>
                             <img src={sunflower1} width={150} />
                         </div>
-
-                        <div className={styles.crimea__content__imgs1__3}>
-                            <img src={sunflower1} width={150} />
-                        </div>
                     </div>
 
                     <div className={styles.crimea__content__mainblock}>
@@ -87,13 +83,18 @@ const HoneyCrimea = () => {
                                 </div>
                             </Link>
 
-                            <div
-                                className={
-                                    styles.crimea__content__mainblock__categories__2
-                                }
+                            <Link
+                                to='/catalog/honey/lavender'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Лавандовый
-                            </div>
+                                <div
+                                    className={
+                                        styles.crimea__content__mainblock__categories__2
+                                    }
+                                >
+                                    Лавандовый
+                                </div>
+                            </Link>
                             <div
                                 className={
                                     styles.crimea__content__mainblock__categories__2
@@ -136,10 +137,6 @@ const HoneyCrimea = () => {
 
                     <div className={styles.crimea__content__imgs2}>
                         <div className={styles.crimea__content__imgs2__1}>
-                            <img src={sunflower5} width={150} />
-                        </div>
-
-                        <div className={styles.crimea__content__imgs2__2}>
                             <img src={sunflower5} width={150} />
                         </div>
                     </div>

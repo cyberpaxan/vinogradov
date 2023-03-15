@@ -17,19 +17,11 @@
             &__2 {
                 margin-top: 1253px;
             }
-
-            &__3 {
-                margin-top: 2067px;
-            }
         }
 
         &__imgs2 {
             &__1 {
                 margin-top: 340px;
-            }
-
-            &__2 {
-                margin-top: 1993px;
             }
         }
 
@@ -99,7 +91,7 @@
             &__items {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(7, 1fr);
+                grid-template-rows: repeat(2, 1fr);
                 grid-column-gap: 0px;
                 grid-row-gap: 0px;
             }

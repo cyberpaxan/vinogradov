@@ -1,45 +1,49 @@
 import React from 'react';
 import Header from '../../../MainPageFolder/Header/Header';
-import styles from './HoneyEco.module.scss';
+import styles from './HoneyLavender.module.scss';
 import { Link } from 'react-router-dom';
 
 import sunflower1 from '../../../../assets/images/sunflower1.png';
 import sunflower5 from '../../../../assets/images/sunflower5.png';
 
-import honey1 from '../../../../assets/images/CatalogImg/honey1.png';
-import honey2 from '../../../../assets/images/CatalogImg/honey2.png';
-import honey3 from '../../../../assets/images/CatalogImg/honey3.png';
-import honey4 from '../../../../assets/images/CatalogImg/honey4.png';
-import honey5 from '../../../../assets/images/CatalogImg/honey5.png';
+import honey11 from '../../../../assets/images/CatalogImg/honey11.png';
+import honey12 from '../../../../assets/images/CatalogImg/honey12.png';
+import honey13 from '../../../../assets/images/CatalogImg/honey13.png';
+import honey14 from '../../../../assets/images/CatalogImg/honey14.png';
+import honey15 from '../../../../assets/images/CatalogImg/honey15.png';
 
 import cells10 from '../../../../assets/images/cells10.png';
 import Footer from '../../../MainPageFolder/Footer/Footer';
 import CatalogItem from '../../CatalogItem/CatalogItem';
 
-const HoneyEco = () => {
+const HoneyLavender = () => {
     return (
         <div>
-            <div className={styles.eco}>
+            <div className={styles.lavender}>
                 <Header />
-                <div className={styles.eco__content}>
-                    <div className={styles.eco__content__imgs1}>
-                        <div className={styles.eco__content__imgs1__1}>
+                <div className={styles.lavender__content}>
+                    <div className={styles.lavender__content__imgs1}>
+                        <div className={styles.lavender__content__imgs1__1}>
                             <img src={cells10} />
                         </div>
 
-                        <div className={styles.eco__content__imgs1__2}>
+                        <div className={styles.lavender__content__imgs1__2}>
                             <img src={sunflower1} width={150} />
                         </div>
                     </div>
 
-                    <div className={styles.eco__content__mainblock}>
-                        <div className={styles.eco__content__mainblock__title}>
+                    <div className={styles.lavender__content__mainblock}>
+                        <div
+                            className={
+                                styles.lavender__content__mainblock__title
+                            }
+                        >
                             Мёд
                         </div>
 
                         <div
                             className={
-                                styles.eco__content__mainblock__categories
+                                styles.lavender__content__mainblock__categories
                             }
                         >
                             <Link
@@ -48,44 +52,45 @@ const HoneyEco = () => {
                             >
                                 <div
                                     className={
-                                        styles.eco__content__mainblock__categories__2
+                                        styles.lavender__content__mainblock__categories__2
                                     }
                                 >
                                     Все
                                 </div>
                             </Link>
+
                             <Link
                                 to='/catalog/honey/eco'
                                 style={{ textDecoration: 'none' }}
                             >
                                 <div
                                     className={
-                                        styles.eco__content__mainblock__categories__1
+                                        styles.lavender__content__mainblock__categories__2
                                     }
                                 >
                                     Горный Эко
                                 </div>
                             </Link>
+
                             <Link
                                 to='/catalog/honey/crimea'
                                 style={{ textDecoration: 'none' }}
                             >
                                 <div
                                     className={
-                                        styles.eco__content__mainblock__categories__2
+                                        styles.lavender__content__mainblock__categories__2
                                     }
                                 >
                                     Крымская коллекция
                                 </div>
                             </Link>
-
                             <Link
                                 to='/catalog/honey/lavender'
                                 style={{ textDecoration: 'none' }}
                             >
                                 <div
                                     className={
-                                        styles.eco__content__mainblock__categories__2
+                                        styles.lavender__content__mainblock__categories__1
                                     }
                                 >
                                     Лавандовый
@@ -94,44 +99,48 @@ const HoneyEco = () => {
 
                             <div
                                 className={
-                                    styles.eco__content__mainblock__categories__2
+                                    styles.lavender__content__mainblock__categories__2
                                 }
                             >
                                 Сады Тавриды
                             </div>
                         </div>
 
-                        <div className={styles.eco__content__mainblock__items}>
+                        <div
+                            className={
+                                styles.lavender__content__mainblock__items
+                            }
+                        >
                             <CatalogItem
-                                img={honey2}
-                                title='Мёд Горный ЭКО 250 гр.'
-                                price={407}
+                                img={honey11}
+                                title='Мёд “Крымская коллекция” 150 гр.'
+                                price={211}
                             />
                             <CatalogItem
-                                img={honey4}
-                                title='Мёд Горный ЭКО 550 гр.'
-                                price={836}
+                                img={honey12}
+                                title='Мёд “Крымская коллекция” 250 гр.'
+                                price={318}
                             />
                             <CatalogItem
-                                img={honey5}
-                                title='Мёд Горный ЭКО 1000 гр.'
-                                price={1479}
+                                img={honey13}
+                                title='Мёд “Крымская коллекция” 350 гр.'
+                                price={425}
                             />
                             <CatalogItem
-                                img={honey3}
-                                title='Мёд Горный ЭКО 350 гр.'
-                                price={550}
+                                img={honey14}
+                                title='Мёд “Крымская коллекция” 550 гр.'
+                                price={639}
                             />
                             <CatalogItem
-                                img={honey1}
-                                title='Мёд Горный ЭКО 150 гр.'
-                                price={264}
+                                img={honey15}
+                                title='Мёд “Крымская коллекция” 1000 гр.'
+                                price={1121}
                             />
                         </div>
                     </div>
 
-                    <div className={styles.eco__content__imgs2}>
-                        <div className={styles.eco__content__imgs2__1}>
+                    <div className={styles.lavender__content__imgs2}>
+                        <div className={styles.lavender__content__imgs2__1}>
                             <img src={sunflower5} width={150} />
                         </div>
                     </div>
@@ -144,4 +153,4 @@ const HoneyEco = () => {
     );
 };
 
-export default HoneyEco;
+export default HoneyLavender;
