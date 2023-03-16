@@ -19,6 +19,10 @@ import HoneyCrimea from './components/CatalogFolder/Honey/Crimea/HoneyCrimea';
 import HoneyLavender from './components/CatalogFolder/Honey/Lavender/HoneyLavender';
 import HoneyTavrida from './components/CatalogFolder/Honey/Tavrida/HoneyTavrida';
 
+import HerbsAll from './components/CatalogFolder/Herbs/All/HerbsAll';
+import HerbsMonastic from './components/CatalogFolder/Herbs/Monastic/HerbsMonastic';
+import HerbsFitosbor from './components/CatalogFolder/Herbs/Fitosbor/HerbsFitosbor';
+
 function App() {
     return (
         <div className='App'>
@@ -44,6 +48,16 @@ function App() {
                 <Route
                     path='/catalog/honey/lavender'
                     element={<HoneyLavender />}
+                />
+
+                <Route path='/catalog/herbs/all' element={<HerbsAll />} />
+                <Route
+                    path='/catalog/herbs/fitosbor'
+                    element={<HerbsFitosbor />}
+                />
+                <Route
+                    path='/catalog/herbs/monastic'
+                    element={<HerbsMonastic />}
                 />
             </Routes>
         </div>

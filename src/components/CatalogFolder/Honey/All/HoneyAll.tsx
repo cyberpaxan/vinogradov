@@ -53,20 +53,31 @@ const HoneyAll = () => {
 
                     <div className={styles.all__content__mainblock}>
                         <div className={styles.all__content__mainblock__title}>
-                            <div
-                                className={
-                                    styles.all__content__mainblock__title__1
-                                }
+                            <Link
+                                to='/catalog/honey/all'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Мёд
-                            </div>
-                            <div
-                                className={
-                                    styles.all__content__mainblock__title__2
-                                }
+                                <div
+                                    className={
+                                        styles.all__content__mainblock__title__1
+                                    }
+                                >
+                                    Мёд
+                                </div>
+                            </Link>
+
+                            <Link
+                                to='/catalog/herbs/all'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Травы
-                            </div>
+                                <div
+                                    className={
+                                        styles.all__content__mainblock__title__2
+                                    }
+                                >
+                                    Травы
+                                </div>
+                            </Link>
                             <div
                                 className={
                                     styles.all__content__mainblock__title__2
