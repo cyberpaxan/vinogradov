@@ -53,7 +53,34 @@ const HoneyAll = () => {
 
                     <div className={styles.all__content__mainblock}>
                         <div className={styles.all__content__mainblock__title}>
-                            Мёд
+                            <div
+                                className={
+                                    styles.all__content__mainblock__title__1
+                                }
+                            >
+                                Мёд
+                            </div>
+                            <div
+                                className={
+                                    styles.all__content__mainblock__title__2
+                                }
+                            >
+                                Травы
+                            </div>
+                            <div
+                                className={
+                                    styles.all__content__mainblock__title__2
+                                }
+                            >
+                                Воск/Свечи
+                            </div>
+                            <div
+                                className={
+                                    styles.all__content__mainblock__title__2
+                                }
+                            >
+                                Подарочные наборы
+                            </div>
                         </div>
 
                         <div

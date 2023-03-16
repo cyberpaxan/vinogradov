@@ -31,10 +31,6 @@ const HoneyTavrida = () => {
                         <div className={styles.tavrida__content__imgs1__2}>
                             <img src={sunflower1} width={150} />
                         </div>
-
-                        <div className={styles.tavrida__content__imgs1__3}>
-                            <img src={sunflower1} width={150} />
-                        </div>
                     </div>
 
                     <div className={styles.tavrida__content__mainblock}>
@@ -43,7 +39,34 @@ const HoneyTavrida = () => {
                                 styles.tavrida__content__mainblock__title
                             }
                         >
-                            Мёд
+                            <div
+                                className={
+                                    styles.tavrida__content__mainblock__title__1
+                                }
+                            >
+                                Мёд
+                            </div>
+                            <div
+                                className={
+                                    styles.tavrida__content__mainblock__title__2
+                                }
+                            >
+                                Травы
+                            </div>
+                            <div
+                                className={
+                                    styles.tavrida__content__mainblock__title__2
+                                }
+                            >
+                                Воск/Свечи
+                            </div>
+                            <div
+                                className={
+                                    styles.tavrida__content__mainblock__title__2
+                                }
+                            >
+                                Подарочные наборы
+                            </div>
                         </div>
 
                         <div
@@ -151,10 +174,6 @@ const HoneyTavrida = () => {
 
                     <div className={styles.tavrida__content__imgs2}>
                         <div className={styles.tavrida__content__imgs2__1}>
-                            <img src={sunflower5} width={150} />
-                        </div>
-
-                        <div className={styles.tavrida__content__imgs2__2}>
                             <img src={sunflower5} width={150} />
                         </div>
                     </div>

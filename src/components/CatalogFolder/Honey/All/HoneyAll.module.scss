@@ -41,18 +41,42 @@
 
             &__title {
                 width: 1170px;
-                height: 54px;
-                background: #ffd465;
-                border-radius: 25px;
                 display: flex;
-                justify-content: center;
-                align-items: center;
+                justify-content: space-between;
 
-                font-family: 'Mont';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 24px;
-                line-height: 31px;
+                &__1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 15px 50px 15px 50px;
+                    background: #ffd465;
+                    border-radius: 25px;
+                    cursor: pointer;
+
+                    font-family: 'Courier New', Courier, monospace;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #000000;
+                }
+
+                &__2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #ffe9af;
+                    border-radius: 25px;
+                    padding: 15px 50px 15px 50px;
+                    cursor: pointer;
+
+                    font-family: 'Courier New', Courier, monospace;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #000000;
+                }
             }
 
             &__categories {

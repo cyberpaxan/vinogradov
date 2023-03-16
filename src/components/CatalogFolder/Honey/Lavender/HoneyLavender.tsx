@@ -38,7 +38,34 @@ const HoneyLavender = () => {
                                 styles.lavender__content__mainblock__title
                             }
                         >
-                            Мёд
+                            <div
+                                className={
+                                    styles.lavender__content__mainblock__title__1
+                                }
+                            >
+                                Мёд
+                            </div>
+                            <div
+                                className={
+                                    styles.lavender__content__mainblock__title__2
+                                }
+                            >
+                                Травы
+                            </div>
+                            <div
+                                className={
+                                    styles.lavender__content__mainblock__title__2
+                                }
+                            >
+                                Воск/Свечи
+                            </div>
+                            <div
+                                className={
+                                    styles.lavender__content__mainblock__title__2
+                                }
+                            >
+                                Подарочные наборы
+                            </div>
                         </div>
 
                         <div
