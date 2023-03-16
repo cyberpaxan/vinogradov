@@ -17,6 +17,7 @@ import HoneyAll from './components/CatalogFolder/Honey/All/HoneyAll';
 import HoneyEco from './components/CatalogFolder/Honey/HoneyEco/HoneyEco';
 import HoneyCrimea from './components/CatalogFolder/Honey/Crimea/HoneyCrimea';
 import HoneyLavender from './components/CatalogFolder/Honey/Lavender/HoneyLavender';
+import HoneyTavrida from './components/CatalogFolder/Honey/Tavrida/HoneyTavrida';
 
 function App() {
     return (
@@ -36,6 +37,10 @@ function App() {
                 <Route path='/catalog/honey/all' element={<HoneyAll />} />
                 <Route path='/catalog/honey/eco' element={<HoneyEco />} />
                 <Route path='/catalog/honey/crimea' element={<HoneyCrimea />} />
+                <Route
+                    path='/catalog/honey/tavrida'
+                    element={<HoneyTavrida />}
+                />
                 <Route
                     path='/catalog/honey/lavender'
                     element={<HoneyLavender />}

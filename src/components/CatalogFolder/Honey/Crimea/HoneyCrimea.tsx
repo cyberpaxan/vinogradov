@@ -95,13 +95,18 @@ const HoneyCrimea = () => {
                                     Лавандовый
                                 </div>
                             </Link>
-                            <div
-                                className={
-                                    styles.crimea__content__mainblock__categories__2
-                                }
+                            <Link
+                                to='/catalog/honey/tavrida'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Сады Тавриды
-                            </div>
+                                <div
+                                    className={
+                                        styles.crimea__content__mainblock__categories__2
+                                    }
+                                >
+                                    Сады Тавриды
+                                </div>
+                            </Link>
                         </div>
 
                         <div

@@ -97,13 +97,18 @@ const HoneyLavender = () => {
                                 </div>
                             </Link>
 
-                            <div
-                                className={
-                                    styles.lavender__content__mainblock__categories__2
-                                }
+                            <Link
+                                to='/catalog/honey/tavrida'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Сады Тавриды
-                            </div>
+                                <div
+                                    className={
+                                        styles.lavender__content__mainblock__categories__2
+                                    }
+                                >
+                                    Сады Тавриды
+                                </div>
+                            </Link>
                         </div>
 
                         <div
@@ -114,27 +119,27 @@ const HoneyLavender = () => {
                             <CatalogItem
                                 img={honey11}
                                 title='Мёд “Крымская коллекция” 150 гр.'
-                                price={211}
+                                price={264}
                             />
                             <CatalogItem
                                 img={honey12}
                                 title='Мёд “Крымская коллекция” 250 гр.'
-                                price={318}
+                                price={407}
                             />
                             <CatalogItem
                                 img={honey13}
                                 title='Мёд “Крымская коллекция” 350 гр.'
-                                price={425}
+                                price={550}
                             />
                             <CatalogItem
                                 img={honey14}
                                 title='Мёд “Крымская коллекция” 550 гр.'
-                                price={639}
+                                price={836}
                             />
                             <CatalogItem
                                 img={honey15}
                                 title='Мёд “Крымская коллекция” 1000 гр.'
-                                price={1121}
+                                price={1479}
                             />
                         </div>
                     </div>
