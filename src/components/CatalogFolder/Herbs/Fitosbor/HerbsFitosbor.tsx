@@ -61,13 +61,20 @@ const HerbsFitosbor = () => {
                                     Травы
                                 </div>
                             </Link>
-                            <div
-                                className={
-                                    styles.fitosbor__content__mainblock__title__2
-                                }
+
+                            <Link
+                                to='/catalog/wax/all'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Воск/Свечи
-                            </div>
+                                <div
+                                    className={
+                                        styles.fitosbor__content__mainblock__title__2
+                                    }
+                                >
+                                    Воск/Свечи
+                                </div>
+                            </Link>
+
                             <div
                                 className={
                                     styles.fitosbor__content__mainblock__title__2

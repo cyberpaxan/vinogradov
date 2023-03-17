@@ -22,6 +22,9 @@ import HoneyTavrida from './components/CatalogFolder/Honey/Tavrida/HoneyTavrida'
 import HerbsAll from './components/CatalogFolder/Herbs/All/HerbsAll';
 import HerbsMonastic from './components/CatalogFolder/Herbs/Monastic/HerbsMonastic';
 import HerbsFitosbor from './components/CatalogFolder/Herbs/Fitosbor/HerbsFitosbor';
+import WaxAll from './components/CatalogFolder/Wax/All/WaxAll';
+import WaxOnly from './components/CatalogFolder/Wax/Wax/WaxOnly';
+import WaxCandles from './components/CatalogFolder/Wax/Candles/WaxCandles';
 
 function App() {
     return (
@@ -59,6 +62,10 @@ function App() {
                     path='/catalog/herbs/monastic'
                     element={<HerbsMonastic />}
                 />
+
+                <Route path='/catalog/wax/all' element={<WaxAll />} />
+                <Route path='/catalog/wax/wax' element={<WaxOnly />} />
+                <Route path='/catalog/wax/candles' element={<WaxCandles />} />
             </Routes>
         </div>
     );

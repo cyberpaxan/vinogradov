@@ -64,13 +64,19 @@ const HoneyTavrida = () => {
                                     Травы
                                 </div>
                             </Link>
-                            <div
-                                className={
-                                    styles.tavrida__content__mainblock__title__2
-                                }
+                            <Link
+                                to='/catalog/wax/all'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Воск/Свечи
-                            </div>
+                                <div
+                                    className={
+                                        styles.tavrida__content__mainblock__title__2
+                                    }
+                                >
+                                    Воск/Свечи
+                                </div>
+                            </Link>
+
                             <div
                                 className={
                                     styles.tavrida__content__mainblock__title__2

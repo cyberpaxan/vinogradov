@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from '../../../MainPageFolder/Header/Header';
-import styles from './HerbsAll.module.scss';
+import styles from './WaxAll.module.scss';
 import { Link } from 'react-router-dom';
 
 import sunflower1 from '../../../../assets/images/sunflower1.png';
@@ -11,22 +11,24 @@ import cells10 from '../../../../assets/images/cells10.png';
 import Footer from '../../../MainPageFolder/Footer/Footer';
 import CatalogItem from '../../CatalogItem/CatalogItem';
 
-import herb1 from '../../../../assets/images/CatalogImg/herb1.png';
-import herb2 from '../../../../assets/images/CatalogImg/herb2.png';
-import herb3 from '../../../../assets/images/CatalogImg/herb3.png';
-import herb4 from '../../../../assets/images/CatalogImg/herb4.png';
-import herb5 from '../../../../assets/images/CatalogImg/herb5.png';
-import herb6 from '../../../../assets/images/CatalogImg/herb6.png';
-import herb7 from '../../../../assets/images/CatalogImg/herb7.png';
-import herb8 from '../../../../assets/images/CatalogImg/herb8.png';
-import herb9 from '../../../../assets/images/CatalogImg/herb9.png';
-import herb10 from '../../../../assets/images/CatalogImg/herb10.png';
-import herb11 from '../../../../assets/images/CatalogImg/herb11.png';
-import herb12 from '../../../../assets/images/CatalogImg/herb12.png';
-import herb13 from '../../../../assets/images/CatalogImg/herb13.png';
-import herb14 from '../../../../assets/images/CatalogImg/herb14.png';
+import wax1 from '../../../../assets/images/CatalogImg/wax1.png';
+import wax2 from '../../../../assets/images/CatalogImg/wax2.png';
+import wax3 from '../../../../assets/images/CatalogImg/wax3.png';
+import wax4 from '../../../../assets/images/CatalogImg/wax4.png';
+import wax5 from '../../../../assets/images/CatalogImg/wax5.png';
+import wax6 from '../../../../assets/images/CatalogImg/wax6.png';
+import wax7 from '../../../../assets/images/CatalogImg/wax7.png';
+import wax8 from '../../../../assets/images/CatalogImg/wax8.png';
+import wax9 from '../../../../assets/images/CatalogImg/wax9.png';
+import wax10 from '../../../../assets/images/CatalogImg/wax10.png';
+import wax11 from '../../../../assets/images/CatalogImg/wax11.png';
+import wax12 from '../../../../assets/images/CatalogImg/wax12.png';
+import wax13 from '../../../../assets/images/CatalogImg/wax13.png';
+import wax14 from '../../../../assets/images/CatalogImg/wax14.png';
+import wax15 from '../../../../assets/images/CatalogImg/wax15.png';
+import wax16 from '../../../../assets/images/CatalogImg/wax16.png';
 
-const HerbsAll = () => {
+const WaxAll = () => {
     return (
         <div>
             <div className={styles.all}>
@@ -63,26 +65,19 @@ const HerbsAll = () => {
                             >
                                 <div
                                     className={
-                                        styles.all__content__mainblock__title__1
+                                        styles.all__content__mainblock__title__2
                                     }
                                 >
                                     Травы
                                 </div>
                             </Link>
-
-                            <Link
-                                to='/catalog/wax/all'
-                                style={{ textDecoration: 'none' }}
+                            <div
+                                className={
+                                    styles.all__content__mainblock__title__1
+                                }
                             >
-                                <div
-                                    className={
-                                        styles.all__content__mainblock__title__2
-                                    }
-                                >
-                                    Воск/Свечи
-                                </div>
-                            </Link>
-
+                                Воск/Свечи
+                            </div>
                             <div
                                 className={
                                     styles.all__content__mainblock__title__2
@@ -98,7 +93,7 @@ const HerbsAll = () => {
                             }
                         >
                             <Link
-                                to='/catalog/herbs/all'
+                                to='/catalog/wax/all'
                                 style={{ textDecoration: 'none' }}
                             >
                                 <div
@@ -110,7 +105,7 @@ const HerbsAll = () => {
                                 </div>
                             </Link>
                             <Link
-                                to='/catalog/herbs/monastic'
+                                to='/catalog/wax/wax'
                                 style={{ textDecoration: 'none' }}
                             >
                                 <div
@@ -118,11 +113,11 @@ const HerbsAll = () => {
                                         styles.all__content__mainblock__categories__2
                                     }
                                 >
-                                    "Чай монастырский"
+                                    Воск
                                 </div>
                             </Link>
                             <Link
-                                to='/catalog/herbs/fitosbor'
+                                to='/catalog/wax/candles'
                                 style={{ textDecoration: 'none' }}
                             >
                                 <div
@@ -130,87 +125,97 @@ const HerbsAll = () => {
                                         styles.all__content__mainblock__categories__2
                                     }
                                 >
-                                    Фитосборы
+                                    Свечи
                                 </div>
                             </Link>
                         </div>
 
                         <div className={styles.all__content__mainblock__items}>
                             <Link
-                                to='/products/tea'
+                                to='/products/candle'
                                 style={{ textDecoration: 'none' }}
                             >
                                 <CatalogItem
-                                    img={herb1}
-                                    title='"Чай Монастырский" противодиабетический'
-                                    price={520}
+                                    img={wax7}
+                                    title='Свеча восковая "Вощина" 100 мм'
+                                    price={120}
                                 />
                             </Link>
 
                             <CatalogItem
-                                img={herb2}
-                                title='"Чай Монастырский" общеукрепляющий'
-                                price={520}
+                                img={wax2}
+                                title='Воск 100 гр.'
+                                price={200}
                             />
                             <CatalogItem
-                                img={herb3}
-                                title='"Чай Монастырский" успокоительный'
-                                price={520}
+                                img={wax3}
+                                title='Воск 250 гр.'
+                                price={500}
                             />
                             <CatalogItem
-                                img={herb4}
-                                title='"Чай Монастырский" грудной сбор'
-                                price={520}
+                                img={wax4}
+                                title='Воск 5000 гр.'
+                                price={10000}
                             />
                             <CatalogItem
-                                img={herb5}
-                                title='"Чай Монастырский" травоочиститель'
-                                price={520}
+                                img={wax5}
+                                title='Свеча восковая "Горшочек"'
+                                price={250}
                             />
                             <CatalogItem
-                                img={herb6}
-                                title='"Чай Монастырский" бальзам здоровья'
-                                price={520}
+                                img={wax6}
+                                title='Свеча восковая "Чайная"'
+                                price={49}
                             />
                             <CatalogItem
-                                img={herb7}
-                                title='"Чай Монастырский" от курения'
-                                price={520}
+                                img={wax1}
+                                title='Воск 25 гр.'
+                                price={50}
                             />
                             <CatalogItem
-                                img={herb8}
-                                title='"Чай Монастырский" нормализующий давление'
-                                price={520}
+                                img={wax8}
+                                title='Свеча восковая "Куб" 50 мм'
+                                price={400}
                             />
                             <CatalogItem
-                                img={herb9}
-                                title='"Солнышно детский, для ванны"'
-                                price={450}
+                                img={wax9}
+                                title='Свеча восковая "Куб" 80 мм'
+                                price={550}
                             />
                             <CatalogItem
-                                img={herb10}
-                                title='Запарка банная "Легкое дыхание"'
-                                price={300}
+                                img={wax10}
+                                title='Свеча восковая "Цилиндр" 70 мм'
+                                price={480}
                             />
                             <CatalogItem
-                                img={herb11}
-                                title='Запарка банная "Здоровье"'
-                                price={300}
+                                img={wax11}
+                                title='Свеча восковая "Ёлка", 90 мм'
+                                price={500}
                             />
                             <CatalogItem
-                                img={herb12}
-                                title='"Укрепление волос"'
-                                price={450}
+                                img={wax12}
+                                title='Свеча восковая "Ёлка", 125 мм'
+                                price={750}
                             />
                             <CatalogItem
-                                img={herb13}
-                                title='"Противоалкогольный сбор"'
-                                price={450}
+                                img={wax13}
+                                title='Свеча восковая литая "Круглая" 270 мм'
+                                price={270}
                             />
                             <CatalogItem
-                                img={herb14}
-                                title='"Кизиловый сад"'
-                                price={520}
+                                img={wax14}
+                                title='Свеча восковая литая "Квадрат" 200 мм'
+                                price={200}
+                            />
+                            <CatalogItem
+                                img={wax15}
+                                title='Свеча восковая "Вощина", 210 мм'
+                                price={200}
+                            />
+                            <CatalogItem
+                                img={wax16}
+                                title='Свеча восковая "Цветок"'
+                                price={80}
                             />
                         </div>
                     </div>
@@ -233,4 +238,4 @@ const HerbsAll = () => {
     );
 };
 
-export default HerbsAll;
+export default WaxAll;

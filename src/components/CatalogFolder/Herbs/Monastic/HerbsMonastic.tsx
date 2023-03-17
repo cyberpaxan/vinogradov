@@ -67,13 +67,20 @@ const HerbsMonastic = () => {
                                     Травы
                                 </div>
                             </Link>
-                            <div
-                                className={
-                                    styles.monastic__content__mainblock__title__2
-                                }
+
+                            <Link
+                                to='/catalog/wax/all'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Воск/Свечи
-                            </div>
+                                <div
+                                    className={
+                                        styles.monastic__content__mainblock__title__2
+                                    }
+                                >
+                                    Воск/Свечи
+                                </div>
+                            </Link>
+
                             <div
                                 className={
                                     styles.monastic__content__mainblock__title__2
