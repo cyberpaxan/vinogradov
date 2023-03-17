@@ -59,20 +59,32 @@ const WaxOnly = () => {
                                     Травы
                                 </div>
                             </Link>
-                            <div
-                                className={
-                                    styles.wax__content__mainblock__title__1
-                                }
+
+                            <Link
+                                to='/catalog/wax/all'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Воск/Свечи
-                            </div>
-                            <div
-                                className={
-                                    styles.wax__content__mainblock__title__2
-                                }
+                                <div
+                                    className={
+                                        styles.wax__content__mainblock__title__1
+                                    }
+                                >
+                                    Воск/Свечи
+                                </div>
+                            </Link>
+
+                            <Link
+                                to='/catalog/gifts/all'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Подарочные наборы
-                            </div>
+                                <div
+                                    className={
+                                        styles.wax__content__mainblock__title__2
+                                    }
+                                >
+                                    Подарочные наборы
+                                </div>
+                            </Link>
                         </div>
 
                         <div

@@ -75,13 +75,18 @@ const HerbsFitosbor = () => {
                                 </div>
                             </Link>
 
-                            <div
-                                className={
-                                    styles.fitosbor__content__mainblock__title__2
-                                }
+                            <Link
+                                to='/catalog/gifts/all'
+                                style={{ textDecoration: 'none' }}
                             >
-                                Подарочные наборы
-                            </div>
+                                <div
+                                    className={
+                                        styles.fitosbor__content__mainblock__title__2
+                                    }
+                                >
+                                    Подарочные наборы
+                                </div>
+                            </Link>
                         </div>
 
                         <div

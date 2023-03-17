@@ -25,6 +25,7 @@ import HerbsFitosbor from './components/CatalogFolder/Herbs/Fitosbor/HerbsFitosb
 import WaxAll from './components/CatalogFolder/Wax/All/WaxAll';
 import WaxOnly from './components/CatalogFolder/Wax/Wax/WaxOnly';
 import WaxCandles from './components/CatalogFolder/Wax/Candles/WaxCandles';
+import GiftsAll from './components/CatalogFolder/Gifts/All/GiftsAll';
 
 function App() {
     return (
@@ -66,6 +67,8 @@ function App() {
                 <Route path='/catalog/wax/all' element={<WaxAll />} />
                 <Route path='/catalog/wax/wax' element={<WaxOnly />} />
                 <Route path='/catalog/wax/candles' element={<WaxCandles />} />
+
+                <Route path='/catalog/gifts/all' element={<GiftsAll />} />
             </Routes>
         </div>
     );
