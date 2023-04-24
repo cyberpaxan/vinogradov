@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Home.module.scss';
 import cells1 from '../../../assets/images/cells1.png';
 import cells2 from '../../../assets/images/cells2.png';
@@ -17,7 +16,7 @@ const Home = () => {
                             <h1>
                                 Натуральный мед
                                 <br />
-                                из солнечного крыма
+                                из солнечного Крыма
                             </h1>
                         </div>
 
