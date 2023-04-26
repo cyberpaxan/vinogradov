@@ -22,7 +22,14 @@ const Header = () => {
         <div>
             <div className={styles.header}>
                 <div className={styles.header__logoAndCart}>
-                    <Link to='/' style={{ textDecoration: 'none' }}>
+                    <Link
+                        to='/'
+                        style={{
+                            textDecoration: 'none',
+                            cursor: 'pointer',
+                            zIndex: '1',
+                        }}
+                    >
                         <h1>Виноградовъ</h1>
                     </Link>
                     <div className={styles.header__logoAndCart__headerContent}>
@@ -70,43 +77,50 @@ const Header = () => {
                         >
                             <h2>Контакты</h2>
                         </Link>
-                        <button
-                            style={{
-                                fontFamily: 'Mont',
-                                fontStyle: 'normal',
-                                fontWeight: '400',
-                                fontSize: '18px',
-                                lineHeight: '23px',
-                                background: '#ffe9af',
-                                borderRadius: '25px',
-                                width: '129px',
-                                height: '42px',
-                                boxSizing: 'border-box',
-                                border: '1px solid #ffe9af',
-                                marginRight: '5px',
-                                marginLeft: '50px',
-                            }}
-                        >
-                            Войти
-                        </button>
-                        <button
-                            style={{
-                                fontFamily: 'Mont',
-                                fontStyle: 'normal',
-                                fontWeight: '400',
-                                fontSize: '18px',
-                                lineHeight: '23px',
-                                background: '#ffd465',
-                                borderRadius: '25px',
-                                width: '169px',
-                                height: '42px',
-                                boxSizing: 'border-box',
-                                border: '1px solid #ffd465',
-                                marginLeft: '20px',
-                            }}
-                        >
-                            Регистрация
-                        </button>
+                        <Link to='/auth'>
+                            <button
+                                style={{
+                                    fontFamily: 'Mont',
+                                    fontStyle: 'normal',
+                                    fontWeight: '400',
+                                    fontSize: '18px',
+                                    lineHeight: '23px',
+                                    background: '#ffe9af',
+                                    borderRadius: '25px',
+                                    width: '129px',
+                                    height: '42px',
+                                    boxSizing: 'border-box',
+                                    border: '1px solid #ffe9af',
+                                    marginRight: '5px',
+                                    marginLeft: '50px',
+                                    cursor: 'pointer',
+                                }}
+                            >
+                                Войти
+                            </button>
+                        </Link>
+
+                        <Link to='/registration'>
+                            <button
+                                style={{
+                                    fontFamily: 'Mont',
+                                    fontStyle: 'normal',
+                                    fontWeight: '400',
+                                    fontSize: '18px',
+                                    lineHeight: '23px',
+                                    background: '#ffd465',
+                                    borderRadius: '25px',
+                                    width: '169px',
+                                    height: '42px',
+                                    boxSizing: 'border-box',
+                                    border: '1px solid #ffd465',
+                                    marginLeft: '20px',
+                                    cursor: 'pointer',
+                                }}
+                            >
+                                Регистрация
+                            </button>
+                        </Link>
                     </div>
                     <Link to='/cart'>
                         <img src={cart} />

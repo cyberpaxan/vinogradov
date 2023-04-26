@@ -27,6 +27,7 @@ import WaxOnly from './components/CatalogFolder/Wax/Wax/WaxOnly';
 import WaxCandles from './components/CatalogFolder/Wax/Candles/WaxCandles';
 import GiftsAll from './components/CatalogFolder/Gifts/All/GiftsAll';
 import Registration from './components/AuthReg/Registration/Registration';
+import Auth from './components/AuthReg/Auth/Auth';
 
 function App() {
     return (
@@ -72,6 +73,7 @@ function App() {
                 <Route path='/catalog/gifts/all' element={<GiftsAll />} />
 
                 <Route path='/registration' element={<Registration />} />
+                <Route path='/auth' element={<Auth />} />
             </Routes>
         </div>
     );
